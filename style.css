@@ -1,0 +1,21 @@
+.todo-box {
+  max-width: 560px;
+}
+
+.task-done {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.task-item .task-text {
+  flex: 1;
+  margin: 0;
+  text-align: left;
+  word-break: break-word;
+}
